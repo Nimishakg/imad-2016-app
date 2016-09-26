@@ -8,9 +8,17 @@ app.use(morgan('combined'));
 var content = {
     title : 'Article One - Nimisha',
     heading : 'Article one',
-    date : 'Sep 5',
-   
-}
+    date : 'Sep 5, 2016',
+    content : `<p>
+                This is my fsdsd Article. This is my first Article. This is my first Article. This is my first Article. This is my first Article.  
+            </p>
+             <p>
+                This is my first Article. This is my first Article. This is my first Article. This is my first Article. This is my first Article.  
+            </p>
+             <p>
+                This is my first Article. This is my first Article. This is my first Article. This is my first Article. This is my first Article.  
+            </p>`
+};
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
