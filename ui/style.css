@@ -20,3 +20,13 @@ body {
     height: 200px;
 }
 
+.container{
+                width:800px;
+                margin:0 auto;
+                color:gray;
+                text-align:justify;
+                padding-left:20px;
+                padding-right:20px;
+                padding-top:60px;
+            }
+            
