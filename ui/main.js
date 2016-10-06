@@ -1,14 +1,10 @@
-console.log('Loaded!');
-var element = document.getElementById("text-new");
-element.innerHTML = "New text";
-var image = document.getElementById("madi");
-var marginLeft = 0;
-function moveRight()
+var button = document.getElementById("counter");
+button.onclick = function()
 {
- marginLeft = marginLeft + 1;
- image.style.marginLeft = marginLeft + "px";
-}
-image.onclick = function()
-{
-   var interval = setInterval(moveRight , 50);
+  
+  
+  
+ counter = counter + 1;
+ var span = document.getElementById("count");
+ span.innerHTML = counter.toString();
 };
