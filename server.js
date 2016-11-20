@@ -9,7 +9,7 @@ var articles =
 {
  'article-one' : {    title : 'Article One - Nimisha',
     heading : 'Article One',
-    date : 'Sep 1, 2016',
+    date : 'Sep 5, 2016',
     content : `<p>
                 This is my second Article.  </p> `},
  'article-two' : {
