@@ -45,7 +45,7 @@ var htmlTemplate = `
 <html>
     <head>
         <title>
-            ${title}
+          nimmi
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/ui/style.css" rel="stylesheet" />
