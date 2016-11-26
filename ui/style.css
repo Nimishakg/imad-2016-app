@@ -21,12 +21,7 @@ body {
 }
 
 .container{
-                max-width:800px;
-                margin:0 auto;
-                color:gray;
-                text-align:justify;
-                padding-left:20px;
-                padding-right:20px;
+
                 background-color:white;
                
             }
